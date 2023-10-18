@@ -1,0 +1,8 @@
+Exercice 4
+
+Le tri à bulles est effectivement très lent en raison de sa méthode de trie consécutif, à savoir trier par rapport aux éléments voisins alors que l’insertion produit le tri en envoyant l’élément dans un tableau partiellement trié même temps. 
+C’est à dire que le tri à bulle ferait quelque chose à peu près ainsi :
+myTable = [29, 10, 7, 11, 21]
+29> 10 alors il échange puis 29 > 7, il échange puis 29 > 11, il échange et ainsi de suite pour chaque élément de la liste.
+Le temps nécessaire à son exécution variera évidemment en fonction de la taille du tableau, mais j’imagine de nombreuses heures pour un tableau avec un nombre d’éléments ce comptant par milliers.
+
